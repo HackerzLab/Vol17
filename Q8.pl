@@ -6,7 +6,6 @@ my $sum = 0;
 while(<>) {
   my @tmp;
   chomp( $_);
-  $_;
   @tmp = split(/,/,$_);
   push(@int_box,@tmp);
 }
